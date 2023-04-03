@@ -25,7 +25,7 @@ export default function Qualifications() {
                 variant="body2"
                 color="text.primary"
               >
-                62% CGPA
+                63.97% CGPA
               </Typography>
               {" — B.tech Computer science and engineering"}
             </React.Fragment>

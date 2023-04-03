@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link} from 'react-router-dom';
 
-const pages = ['Aboutus', 'Experience', 'Hobbies','Qualification','Skills'];
+const pages = ['Aboutus','Certifications','Contactme', 'Experience', 'Hobbies','Projects','Qualification','Skills','Workshops'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -37,7 +37,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{backgroundColor:"Black"}} >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -56,7 +56,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Vyshnavi
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -131,7 +131,7 @@ function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Vyshnavi" src="/static/images/avatar/2.jpg" />
               </IconButton>
             </Tooltip>
             <Menu
